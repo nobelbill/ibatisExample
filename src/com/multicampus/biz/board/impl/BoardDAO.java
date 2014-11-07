@@ -33,7 +33,7 @@ public class BoardDAO {
 	}	
 	
 	public List<BoardVO> getBoardList(BoardVO vo) throws SQLException{		
-		return ibatis.queryForList("getBoard",vo);
+		return ibatis.queryForList("getBoardList",vo);
 	}
 }
 
